@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PRG_role2_code_kb.Presentation_Layer;
 
 namespace PRG_role2_code_kb
 {
@@ -16,7 +17,7 @@ namespace PRG_role2_code_kb
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new AddAnimalForm());
         }
     }
 }

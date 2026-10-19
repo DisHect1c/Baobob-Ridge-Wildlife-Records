@@ -16,10 +16,8 @@ namespace PRG_role2_code_kb.Entity
             this.AnimalID = animalID;
             this.Name = name;
             this.Species = species;
-            this.Status = status;
             this.HousingUnit = housingUnit;
             this.Age = age;
-            this.RecoveryScore = recoveryScore;
 
             ClassifyAnimal(recoveryScore, out string calculatedStatus, out string calculatedHousing);
             this.Status = calculatedStatus;
