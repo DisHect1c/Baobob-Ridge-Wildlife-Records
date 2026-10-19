@@ -50,6 +50,12 @@
     <Compile Include="Entity\Animal.cs" />
     <Compile Include="Entity\Entity.cs" />
     <Compile Include="Data Layer\Class1.cs" />
+    <Compile Include="Presentation Layer\AddAnimalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\AddAnimalForm.Designer.cs">
+      <DependentUpon>AddAnimalForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentation Layer\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentation Layer\AddAnimalForm.resx">
+      <DependentUpon>AddAnimalForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation Layer\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
